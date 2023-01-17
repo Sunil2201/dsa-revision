@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Armstrong {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+
         System.out.println("Please enter a number");
         int num = input.nextInt();
         System.out.println(armstrong(num));
@@ -22,10 +23,7 @@ public class Armstrong {
                 sum += Math.pow(digit, 3);
                 num = num/10;
             }
-            if(sum == originalNum){
-                return true;
-            }
-            return false;
+            return sum == originalNum;
         }
     }
 }
