@@ -37,7 +37,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MaxNumber">
+  <component name="RunManager" selected="Application.CountingNumber">
     <configuration name="Armstrong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basics.Armstrong" />
       <module name="dsa-revision" />
@@ -51,8 +51,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.Fibonacci" />
+    <configuration name="CountingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.CountingNumber" />
       <module name="dsa-revision" />
       <extension name="coverage">
         <pattern>
@@ -64,8 +64,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Greeting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.Greeting" />
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.Fibonacci" />
       <module name="dsa-revision" />
       <extension name="coverage">
         <pattern>
@@ -105,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountingNumber" />
         <item itemvalue="Application.MaxNumber" />
         <item itemvalue="Application.Armstrong" />
         <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.Fibonacci" />
-        <item itemvalue="Application.Greeting" />
       </list>
     </recent_temporary>
   </component>
