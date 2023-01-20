@@ -39,13 +39,13 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DiffCalculations">
-    <configuration name="Armstrong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.Armstrong" />
+  <component name="RunManager" selected="Application.ArrayMod">
+    <configuration name="ArrayMod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functions.ArrayMod" />
       <module name="dsa-revision" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basics.*" />
+          <option name="PATTERN" value="functions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayMod" />
         <item itemvalue="Application.DiffCalculations" />
         <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.CountingNumber" />
         <item itemvalue="Application.MaxNumber" />
-        <item itemvalue="Application.Armstrong" />
       </list>
     </recent_temporary>
   </component>
