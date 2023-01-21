@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08c4ab7c-2dfd-4eff-8494-1feec77575a6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/functions/NaturalNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/functions/NaturalNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.VarArgs">
+  <component name="RunManager" selected="Application.NaturalNumbers">
     <configuration name="ArrayMod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functions.ArrayMod" />
       <module name="dsa-revision" />
@@ -53,8 +53,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.Calculator" />
+    <configuration name="DiffCalculations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.DiffCalculations" />
       <module name="dsa-revision" />
       <extension name="coverage">
         <pattern>
@@ -66,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiffCalculations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.DiffCalculations" />
+    <configuration name="NaturalNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functions.NaturalNumbers" />
       <module name="dsa-revision" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basics.*" />
+          <option name="PATTERN" value="functions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NaturalNumbers" />
         <item itemvalue="Application.VarArgs" />
         <item itemvalue="Application.Shadowing" />
         <item itemvalue="Application.ArrayMod" />
         <item itemvalue="Application.DiffCalculations" />
-        <item itemvalue="Application.Calculator" />
       </list>
     </recent_temporary>
   </component>
