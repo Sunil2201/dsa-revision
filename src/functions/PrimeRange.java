@@ -20,8 +20,7 @@ public class PrimeRange {
             int flag = 0;
             while(c < Math.sqrt(i)){
                 if(i%c == 0) {
-                  flag = 0;
-                  break;
+                    break;
                 }
                 c += 1;
             }
