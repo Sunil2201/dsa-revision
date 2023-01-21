@@ -10,6 +10,9 @@ public class Factorial {
         System.out.println("Factorial of " +n+ " is: " +factorial(n));
     }
     static int factorial(int n){
+        if(n == 1 || n== 0){
+            return 1;
+        }
         int factorial = 1;
         for(int i=n; i>0; i--){
             factorial *= i;
