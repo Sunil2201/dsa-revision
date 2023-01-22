@@ -39,13 +39,26 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Factorial">
+  <component name="RunManager" selected="Application.MultiDimension">
     <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functions.Factorial" />
       <module name="dsa-revision" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="functions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiDimension" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.MultiDimension" />
+      <module name="dsa-revision" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,19 +92,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Shadowing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functions.Shadowing" />
-      <module name="dsa-revision" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="functions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="VarArgs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functions.VarArgs" />
       <module name="dsa-revision" />
@@ -107,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultiDimension" />
         <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.PrimeRange" />
         <item itemvalue="Application.NaturalNumbers" />
         <item itemvalue="Application.VarArgs" />
-        <item itemvalue="Application.Shadowing" />
       </list>
     </recent_temporary>
   </component>
