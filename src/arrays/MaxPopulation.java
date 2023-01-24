@@ -1,9 +1,5 @@
 package arrays;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
-
 public class MaxPopulation {
     public static void main(String[] args) {
         int[][] logs =  {
@@ -13,30 +9,22 @@ public class MaxPopulation {
                             {2022,2050},
                             {2047,2048}
                         };
-        maximumPopulation(logs);
+        System.out.println(maximumPopulation(logs));
     }
-    static void maximumPopulation(int[][] logs) {
-        List<Integer> list = new ArrayList<>();
-        List<Integer> modifiedList = new ArrayList<>();
-        int maxCount = 1;
-        for(int row=0; row<logs.length; row++){
-            for(int year = logs[row][0]; year<logs[row][1]; year++){
-                list.add(year);
+    static int maximumPopulation(int[][] logs) {
+        int[] ppl = new int[101];
+        int max = 0, idx = 0, lastSum = 0;
+        for ( int i = 0; i < logs.length; i++ ) {
+            ppl[logs[i][0] - 1950]++;
+            ppl[logs[i][1] - 1950]--;
+        }
+        for ( int i = 0; i < ppl.length; i++ ) {
+            lastSum += ppl[i];
+            if ( lastSum > max ) {
+                max = lastSum;
+                idx = i;
             }
         }
-        System.out.println(list);
-        for(int i=0; i<list.size(); i++){
-            int count = 0;
-            for(int j=i+1; j<list.size(); j++){
-                if(Objects.equals(list.get(j), list.get(i))){
-                    count += 1;
-                }
-            }
-            if(count >= maxCount){
-                maxCount = count;
-                modifiedList.add(list.get(i));
-            }
-        }
-        System.out.println(modifiedList);
+        return idx + 1950;
     }
 }
