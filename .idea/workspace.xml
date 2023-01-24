@@ -39,26 +39,13 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BinarySearch">
+  <component name="RunManager" selected="Application.OrderAgnostic">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="binary_search.BinarySearch" />
       <module name="dsa-revision" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="binary_search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Infinite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.Infinite" />
-      <module name="dsa-revision" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,6 +79,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderAgnostic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binary_search.OrderAgnostic" />
+      <module name="dsa-revision" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="binary_search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SearchInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linear_search.SearchInString" />
       <module name="dsa-revision" />
@@ -107,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OrderAgnostic" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.MaxPopulation" />
         <item itemvalue="Application.NoOfDigits" />
         <item itemvalue="Application.SearchInString" />
-        <item itemvalue="Application.Infinite" />
       </list>
     </recent_temporary>
   </component>
