@@ -39,9 +39,40 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.OrderAgnostic">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="binary_search" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Floor">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="binary_search.BinarySearch" />
+      <module name="dsa-revision" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="binary_search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ceiling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binary_search.Ceiling" />
+      <module name="dsa-revision" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="binary_search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Floor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binary_search.Floor" />
       <module name="dsa-revision" />
       <extension name="coverage">
         <pattern>
@@ -66,19 +97,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NoOfDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linear_search.NoOfDigits" />
-      <module name="dsa-revision" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linear_search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OrderAgnostic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="binary_search.OrderAgnostic" />
       <module name="dsa-revision" />
@@ -92,26 +110,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linear_search.SearchInString" />
-      <module name="dsa-revision" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linear_search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Floor" />
+        <item itemvalue="Application.Ceiling" />
         <item itemvalue="Application.OrderAgnostic" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.MaxPopulation" />
-        <item itemvalue="Application.NoOfDigits" />
-        <item itemvalue="Application.SearchInString" />
       </list>
     </recent_temporary>
   </component>
