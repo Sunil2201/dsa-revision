@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="08c4ab7c-2dfd-4eff-8494-1feec77575a6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/binary_search/RBS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary_search/RBS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +44,7 @@
       <recent name="binary_search" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RBS">
+  <component name="RunManager" selected="Application.NoOfRotations">
     <configuration name="Ceiling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="binary_search.Ceiling" />
       <module name="dsa-revision" />
@@ -85,8 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderAgnostic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binary_search.OrderAgnostic" />
+    <configuration name="NoOfRotations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binary_search.NoOfRotations" />
       <module name="dsa-revision" />
       <extension name="coverage">
         <pattern>
@@ -113,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NoOfRotations" />
         <item itemvalue="Application.RBS" />
         <item itemvalue="Application.InfiniteArray" />
         <item itemvalue="Application.Floor" />
         <item itemvalue="Application.Ceiling" />
-        <item itemvalue="Application.OrderAgnostic" />
       </list>
     </recent_temporary>
   </component>
