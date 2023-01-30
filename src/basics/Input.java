@@ -8,6 +8,6 @@ public class Input {
         Scanner input = new Scanner(System.in);
         System.out.print("Please enter your roll no: ");
         int roll_no = input.nextInt();
-        System.out.println(roll_no);
+        System.out.println((int)2.8);
     }
 }
