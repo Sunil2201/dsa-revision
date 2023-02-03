@@ -44,7 +44,7 @@
       <recent name="binary_search" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RBSII">
+  <component name="RunManager" selected="Application.PrettyPrinting">
     <configuration name="BasicProperties" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strings.BasicProperties" />
       <module name="dsa-revision" />
@@ -71,8 +71,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FairCandyShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binary_search.FairCandyShop" />
+    <configuration name="NumberAndItsDouble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binary_search.NumberAndItsDouble" />
       <module name="dsa-revision" />
       <extension name="coverage">
         <pattern>
@@ -84,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberAndItsDouble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binary_search.NumberAndItsDouble" />
+    <configuration name="PrettyPrinting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.PrettyPrinting" />
       <module name="dsa-revision" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="binary_search.*" />
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrettyPrinting" />
         <item itemvalue="Application.RBSII" />
         <item itemvalue="Application.Comparator" />
         <item itemvalue="Application.BasicProperties" />
         <item itemvalue="Application.NumberAndItsDouble" />
-        <item itemvalue="Application.FairCandyShop" />
       </list>
     </recent_temporary>
   </component>
@@ -162,15 +162,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/binary_search/RBSII.java</url>
-          <line>7</line>
-          <properties class="binary_search.RBSII" method="search">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
