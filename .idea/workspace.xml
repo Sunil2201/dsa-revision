@@ -44,7 +44,7 @@
       <recent name="binary_search" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Methods">
+  <component name="RunManager" selected="Application.Patterns">
     <configuration name="Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strings.Methods" />
       <module name="dsa-revision" />
@@ -71,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Performance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.Performance" />
+    <configuration name="Patterns" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.Patterns" />
       <module name="dsa-revision" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="strings.*" />
+          <option name="PATTERN" value="patterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,8 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrettyPrinting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.PrettyPrinting" />
+    <configuration name="Performance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.Performance" />
       <module name="dsa-revision" />
       <extension name="coverage">
         <pattern>
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Patterns" />
         <item itemvalue="Application.Methods" />
         <item itemvalue="Application.SB" />
         <item itemvalue="Application.Performance" />
         <item itemvalue="Application.Operators" />
-        <item itemvalue="Application.PrettyPrinting" />
       </list>
     </recent_temporary>
   </component>
