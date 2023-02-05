@@ -44,9 +44,9 @@
       <recent name="binary_search" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Patterns">
-    <configuration name="Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.Methods" />
+  <component name="RunManager" selected="Application.DefangingIpAddress">
+    <configuration name="DefangingIpAddress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.DefangingIpAddress" />
       <module name="dsa-revision" />
       <extension name="coverage">
         <pattern>
@@ -58,8 +58,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Operators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.Operators" />
+    <configuration name="Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.Methods" />
       <module name="dsa-revision" />
       <extension name="coverage">
         <pattern>
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DefangingIpAddress" />
         <item itemvalue="Application.Patterns" />
         <item itemvalue="Application.Methods" />
         <item itemvalue="Application.SB" />
         <item itemvalue="Application.Performance" />
-        <item itemvalue="Application.Operators" />
       </list>
     </recent_temporary>
   </component>
