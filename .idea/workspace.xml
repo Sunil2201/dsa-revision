@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="08c4ab7c-2dfd-4eff-8494-1feec77575a6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/Patterns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/Patterns.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,7 @@
       <recent name="binary_search" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DefangingIpAddress">
+  <component name="RunManager" selected="Application.Patterns">
     <configuration name="DefangingIpAddress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strings.DefangingIpAddress" />
       <module name="dsa-revision" />
@@ -112,8 +113,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DefangingIpAddress" />
         <item itemvalue="Application.Patterns" />
+        <item itemvalue="Application.DefangingIpAddress" />
         <item itemvalue="Application.Methods" />
         <item itemvalue="Application.SB" />
         <item itemvalue="Application.Performance" />
