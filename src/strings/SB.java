@@ -8,5 +8,6 @@ public class SB {
             builder.append(ch);
         }
         System.out.println(builder);
+
     }
 }

@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="08c4ab7c-2dfd-4eff-8494-1feec77575a6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/Patterns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/Patterns.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strings/BasicProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/BasicProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strings/SB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/SB.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,20 @@
       <recent name="binary_search" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Patterns">
+  <component name="RunManager" selected="Application.SingleElement">
+    <configuration name="BasicProperties" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.BasicProperties" />
+      <module name="dsa-revision" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DefangingIpAddress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strings.DefangingIpAddress" />
       <module name="dsa-revision" />
@@ -85,25 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Performance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.Performance" />
+    <configuration name="SingleElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binary_search.SingleElement" />
       <module name="dsa-revision" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.SB" />
-      <module name="dsa-revision" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="strings.*" />
+          <option name="PATTERN" value="binary_search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingleElement" />
+        <item itemvalue="Application.BasicProperties" />
         <item itemvalue="Application.Patterns" />
         <item itemvalue="Application.DefangingIpAddress" />
         <item itemvalue="Application.Methods" />
-        <item itemvalue="Application.SB" />
-        <item itemvalue="Application.Performance" />
       </list>
     </recent_temporary>
   </component>
@@ -163,6 +164,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/binary_search/SingleElement.java</url>
+          <line>7</line>
+          <properties class="binary_search.SingleElement" method="singleNonDuplicate">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
