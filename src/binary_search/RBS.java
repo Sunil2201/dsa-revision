@@ -2,8 +2,9 @@ package binary_search;
 
 public class RBS {
     public static void main(String[] args) {
-        int[] arr = {4,5,6,7,0,1,2};
-        System.out.println(search(arr, 2));
+        int[] arr = {0,1,2,4,5,6,7};
+        System.out.println(findPivot(arr));
+//        System.out.println(search(arr, 2));
     }
     static int search(int[] nums, int target) {
         int pivot = findPivot(nums);
