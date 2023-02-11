@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="08c4ab7c-2dfd-4eff-8494-1feec77575a6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strings/LengthOfLast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/LengthOfLast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strings/Operators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/Operators.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,20 +46,7 @@
       <recent name="binary_search" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LengthOfLast">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.BinarySearch" />
-      <module name="dsa-revision" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SortingTheSequence">
     <configuration name="Fibo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recursion.Fibo" />
       <module name="dsa-revision" />
@@ -84,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumbersExampleRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.NumbersExampleRecursion" />
+    <configuration name="Operators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.Operators" />
       <module name="dsa-revision" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion.*" />
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,13 +99,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortingTheSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.SortingTheSequence" />
+      <module name="dsa-revision" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortingTheSequence" />
+        <item itemvalue="Application.Operators" />
         <item itemvalue="Application.LengthOfLast" />
         <item itemvalue="Application.Fibo" />
         <item itemvalue="Application.RBS" />
-        <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.NumbersExampleRecursion" />
       </list>
     </recent_temporary>
   </component>
