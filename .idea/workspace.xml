@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="08c4ab7c-2dfd-4eff-8494-1feec77575a6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/binary_search/SingleElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary_search/SingleElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/binary_search/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary_search/TwoSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,13 +44,13 @@
       <recent name="binary_search" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SingleElement">
-    <configuration name="LengthOfLast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.LengthOfLast" />
+  <component name="RunManager" selected="Application.CoinArrangement">
+    <configuration name="CoinArrangement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binary_search.CoinArrangement" />
       <module name="dsa-revision" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="strings.*" />
+          <option name="PATTERN" value="binary_search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CoinArrangement" />
         <item itemvalue="Application.SingleElement" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.SortingTheSequence" />
         <item itemvalue="Application.Operators" />
-        <item itemvalue="Application.LengthOfLast" />
       </list>
     </recent_temporary>
   </component>
@@ -173,15 +171,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/binary_search/SingleElement.java</url>
-          <line>7</line>
-          <properties class="binary_search.SingleElement" method="singleNonDuplicate">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
