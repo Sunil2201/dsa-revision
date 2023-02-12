@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="08c4ab7c-2dfd-4eff-8494-1feec77575a6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/LengthOfLast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/LengthOfLast.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/Operators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/Operators.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +44,7 @@
       <recent name="binary_search" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortingTheSequence">
+  <component name="RunManager" selected="Application.TwoSum">
     <configuration name="Fibo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recursion.Fibo" />
       <module name="dsa-revision" />
@@ -86,19 +84,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RBS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binary_search.RBS" />
-      <module name="dsa-revision" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="binary_search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SortingTheSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strings.SortingTheSequence" />
       <module name="dsa-revision" />
@@ -112,13 +97,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binary_search.TwoSum" />
+      <module name="dsa-revision" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="binary_search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.SortingTheSequence" />
         <item itemvalue="Application.Operators" />
         <item itemvalue="Application.LengthOfLast" />
         <item itemvalue="Application.Fibo" />
-        <item itemvalue="Application.RBS" />
       </list>
     </recent_temporary>
   </component>
