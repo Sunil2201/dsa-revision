@@ -7,7 +7,7 @@ public class StringHalves {
     }
     public static boolean halvesAreAlike(String s) {
         String a = s.substring(0, s.length()/2);
-        String b = s.substring(s.length()/2, s.length());
+        String b = s.substring(s.length()/2);
         int countOfFirstHalf = 0;
         int countOfSecondHalf = 0;
         for(int i=0; i<a.length(); i++){
@@ -20,16 +20,13 @@ public class StringHalves {
                 countOfSecondHalf++;
             }
         }
-        if(countOfFirstHalf == countOfSecondHalf){
-            return true;
-        }
-        return false;
+        return countOfFirstHalf == countOfSecondHalf;
     }
 
     public static boolean isVowel(char ch){
         char[] dictionary = {'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'};
-        for(int i=0; i<dictionary.length; i++){
-            if(ch == dictionary[i]){
+        for (char c : dictionary) {
+            if (ch == c) {
                 return true;
             }
         }
