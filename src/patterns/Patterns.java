@@ -2,7 +2,7 @@ package patterns;
 
 public class Patterns {
     public static void main(String[] args) {
-        pattern31(4);
+        pattern10(5);
     }
 
     static void pattern1(int n){
@@ -56,6 +56,65 @@ public class Patterns {
                 System.out.println();
             }
 
+        }
+    }
+    static void pattern6(int n){
+        for(int row=1; row<=n; row++){
+            // printing space
+            for(int space = 1; space<=n-row; space++){
+                System.out.print(" ");
+            }
+            for(int col=1; col<=row; col++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+    static void pattern7(int n){
+        for(int row=1; row<=n; row++){
+            for(int space=1; space<=row-1; space++){
+                System.out.print(" ");
+            }
+            for(int col=n; col>=row; col--){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+    static void pattern8(int n){
+        for(int row=0; row<n; row++){
+            for(int space = 1; space<=n-row; space++){
+                System.out.print(" ");
+            }
+            for(int col=1; col<=2*row+1; col++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+    static void pattern9(int n){
+        for(int row=1; row<=n; row++){
+            for(int space=1; space<=row-1; space++){
+                System.out.print(" ");
+            }
+            for(int col=n; col>=row; col--){
+                System.out.print("*");
+            }
+            for(int col=1; col<=n-row; col++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+    static void pattern10(int n){
+        for(int row=1; row<=n; row++){
+            for(int space = 1; space<=n-row; space++){
+                System.out.print(" ");
+            }
+            for(int col=1; col<=row; col++){
+                System.out.print("* ");
+            }
+            System.out.println();
         }
     }
     static void pattern28(int n){
