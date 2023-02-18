@@ -2,7 +2,7 @@ package patterns;
 
 public class Patterns {
     public static void main(String[] args) {
-        pattern10(5);
+        pattern12(5);
     }
 
     static void pattern1(int n){
@@ -112,6 +112,30 @@ public class Patterns {
                 System.out.print(" ");
             }
             for(int col=1; col<=row; col++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+    static void pattern11(int n){
+        for(int row=0; row<n; row++){
+            for(int space=1; space<=row; space++){
+                System.out.print(" ");
+            }
+            for(int col=0; col<n-row; col++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+    static void pattern12(int n){
+        for(int row=1; row<=2*n; row++){
+            int spaceInEachRow = row<=n ? row : 2*n+1-row;
+            for(int space=0; space<spaceInEachRow; space++){
+                System.out.print(" ");
+            }
+            int colsInEachRow = row<=n ? n+1-row : row-n;
+            for(int col=0; col<colsInEachRow; col++){
                 System.out.print("* ");
             }
             System.out.println();
