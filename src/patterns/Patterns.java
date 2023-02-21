@@ -2,7 +2,7 @@ package patterns;
 
 public class Patterns {
     public static void main(String[] args) {
-        pattern14(5);
+        pattern15(5);
     }
 
     static void pattern1(int n){
@@ -185,6 +185,25 @@ public class Patterns {
                 if(col == 2 * n - row) System.out.print("*");
                 else System.out.print(" ");
             }
+            System.out.println();
+        }
+    }
+    static void pattern15(int n){
+        for(int row=1; row<2*n; row++){
+         int spacesInEachRow = row<=n ? n-row : row-n;
+         for(int space=1; space<=spacesInEachRow; space++){
+             System.out.print(" ");
+         }
+         int colsInFirstHalf = row<=n ? row : 2*n-row;
+         for(int col=1; col<=colsInFirstHalf; col++){
+             if(col == 1) System.out.print("*");
+             else System.out.print(" ");
+         }
+         int colsInSecondHalf = row<=n ? row-1 : 2*n-1-row;
+         for(int col=1; col<=colsInSecondHalf; col++){
+             if(col == colsInSecondHalf) System.out.print("*");
+             else System.out.print(" ");
+         }
             System.out.println();
         }
     }
