@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="08c4ab7c-2dfd-4eff-8494-1feec77575a6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/Patterns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/Patterns.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strings/BasicProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/BasicProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strings/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/Methods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,33 @@
       <recent name="binary_search" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Patterns">
+  <component name="RunManager" selected="Application.Methods">
+    <configuration name="BasicProperties" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.BasicProperties" />
+      <module name="dsa-revision" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.Methods" />
+      <module name="dsa-revision" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OperationsArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.OperationsArray" />
       <module name="dsa-revision" />
@@ -86,39 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringHalves" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.StringHalves" />
-      <module name="dsa-revision" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.ValidPalindrome" />
-      <module name="dsa-revision" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Methods" />
+        <item itemvalue="Application.BasicProperties" />
         <item itemvalue="Application.Patterns" />
         <item itemvalue="Application.RunLength" />
         <item itemvalue="Application.OperationsArray" />
-        <item itemvalue="Application.ValidPalindrome" />
-        <item itemvalue="Application.StringHalves" />
       </list>
     </recent_temporary>
   </component>
@@ -147,15 +148,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/basics/PrimeOrNot.java</url>
-          <line>5</line>
-          <properties class="basics.PrimeOrNot" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/arrays/OrderArray.java</url>
           <line>10</line>
