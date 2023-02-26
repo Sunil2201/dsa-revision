@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="08c4ab7c-2dfd-4eff-8494-1feec77575a6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/BasicProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/BasicProperties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/strings/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/Methods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OperationsArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.OperationsArray" />
+    <configuration name="Operators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.Operators" />
       <module name="dsa-revision" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,10 +115,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Methods" />
+        <item itemvalue="Application.Operators" />
         <item itemvalue="Application.BasicProperties" />
         <item itemvalue="Application.Patterns" />
         <item itemvalue="Application.RunLength" />
-        <item itemvalue="Application.OperationsArray" />
       </list>
     </recent_temporary>
   </component>

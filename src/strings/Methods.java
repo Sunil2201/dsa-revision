@@ -40,7 +40,7 @@ public class Methods {
         // 14. lastIndexOf()
         System.out.println(name.lastIndexOf('l'));
         // 15. replace()
-        System.out.println(name.replace("un", "ab"));
+        System.out.println(name.replace("un", ""));
         System.out.println(name);
         // 16. replaceFirst()
         System.out.println("Godohmygod".replaceFirst("od", "ill"));
@@ -52,5 +52,29 @@ public class Methods {
         System.out.println(name.startsWith("n"));
         // 20. subsequence()
         System.out.println(name.subSequence(0, 4));
+        // 21. substring()
+        System.out.println(name.substring(0, 5));
+        System.out.println(name.substring(6));
+        // 22. toCharArray()
+        System.out.println(name.toCharArray());
+        // 23. toLowerCase()
+        System.out.println(name.toLowerCase());
+        // 24. toString()
+        char[] demo = {'S', 'u', 'n', 'i', 'l'};
+        System.out.println((Arrays.toString(demo)));
+        // 25. toUpperCase()
+        System.out.println(name.toUpperCase());
+        // 26. trim()
+        System.out.println(" Sunil ".trim());
+        // 27. valueOf()
+        System.out.println(name.valueOf(0));
+
+        StringBuilder name2 = new StringBuilder("Sunil");
+        name2.toString();
+        System.out.println(name2);
+        System.out.println(name.replace("un", ""));
+        System.out.println('2' - '1');
+        System.out.println((char)('j' + 1));
+        System.out.println('i' + 'l');
     }
 }
